@@ -57,14 +57,14 @@
 
 
   XRManager.prototype.attachEventListeners = function () {
-    var onToggleAr = this.toggleAr.bind(this);
+    //var onToggleAr = this.toggleAr.bind(this);
     var onToggleVr = this.toggleVr.bind(this);
     var onUnityLoaded = this.unityLoaded.bind(this);
 
     // dispatched by index.html
     document.addEventListener('UnityLoaded', onUnityLoaded, false);
 
-    document.addEventListener('toggleAR', onToggleAr, false);
+    //document.addEventListener('toggleAR', onToggleAr, false);
     document.addEventListener('toggleVR', onToggleVr, false);
   }
 
@@ -122,6 +122,7 @@
     this.canvas.height = this.originalHeight;
   }
 
+/*
   XRManager.prototype.toggleAr = function () {
     if (!this.gameInstance)
     {
@@ -133,6 +134,7 @@
       this.onRequestARSession();
     }
   }
+  */
 
   XRManager.prototype.toggleVr = function () {
     if (!this.gameInstance)
