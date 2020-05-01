@@ -1,7 +1,7 @@
 {
 "companyName": "DefaultCompany",
 "productName": "Unity-WebXR-Export",
-"productVersion": "0.1",
+"productVersion": "2.0",
 "dataUrl": "Sample.data.unityweb",
 "wasmCodeUrl": "Sample.wasm",
 "wasmFrameworkUrl": "Sample.wasm.framework.unityweb",
